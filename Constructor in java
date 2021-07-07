@@ -1,0 +1,14 @@
+public class Main {
+    String modelName, engineer;
+    int modelYear;
+    
+   public Main(String Name,String EName, int year) {
+       modelName = Name;
+       engineer = EName;
+       modelYear = year;
+   }
+    public static void main (String[] args) {
+        Main myCar = new Main("Tesla Model y", "Elon Musk", 2020);
+        System.out.println(myCar.modelName+ " by "+myCar.engineer+ " in "+myCar.modelYear);
+    }
+}
