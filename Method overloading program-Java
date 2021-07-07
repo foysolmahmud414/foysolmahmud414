@@ -1,0 +1,14 @@
+public class Main {
+    static int myMethod(int x, int y) {
+        return x + y;
+    }
+static double myMethod(double x, double x) {
+        return a+b;
+    }
+  public static void main (String[] args) {
+        int z = myMethod(45, 7);
+        double g = myMethod(3.54654, 6.6536);
+        System.out.println(z);
+        System.out.println(g);
+    }
+}
