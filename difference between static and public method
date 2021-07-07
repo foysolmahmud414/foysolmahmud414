@@ -1,0 +1,22 @@
+ public class Foysol {
+    //static method
+   static void StaticMethod() {
+       System.out.println("Static can be called without creating objects");
+   }
+   
+   //public method
+   public void PublicMethod() {
+       System.out.println("Public method can't be callled without creating objects");
+   }
+    
+    public static void main (String[] args) {
+        StaticMethod(); // this won't throw an error; 
+         // But if i call PublicMethod method, this will throw an error
+         // cuz, Public method can't be callled without creating obects.
+        Foysol myObject = new Foysol();
+           myObject.PublicMethod();
+    }
+    
+    
+    
+}
