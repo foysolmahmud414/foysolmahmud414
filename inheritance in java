@@ -1,0 +1,19 @@
+public class Vehicle // if i declare Vehicle class as final like this "final class vehicle ". then, i won't extent Vehicle class in mani
+{
+  private String Brand = "tesla is yours";
+
+  static void elon ()
+  {
+    System.out.println ("Howdy elon!");
+  }
+ public class Main extends vehicle{
+   private String  modelName= "Model y";
+ 
+  public static void main (String[]args)
+  {
+    elon ();
+    Vehicle cars = new Vehicle();
+    System.out.println (cars.Brand);
+  }
+
+}
